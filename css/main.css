@@ -23,7 +23,6 @@ nav {
   align-items: center;
   justify-content: center;
   height: 100%;
-  /* border-bottom: 2px solid #1f1f1f; */
 }
 
 nav .logo {
@@ -80,6 +79,122 @@ nav .links ul li:nth-child(3) a span {
   background: #fcdc00;
 }
 /* End Navbar */
+
+/* Start Header (index.html) */
+header {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-color: #2965f1;
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+
+header::before {
+  content: url(../images/wave.svg);
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: -50px;
+  left: 0px;
+  z-index: -1;
+}
+
+.header-flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header .info,
+header .img {
+  width: 48%;
+}
+
+header .info {
+  margin-top: -20px;
+}
+
+header .info h1 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+header .info h1 span {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+header .info p {
+  font-size: 22px;
+  color: #eee;
+  line-height: 1.8;
+}
+
+header .img img {
+  width: 90%;
+}
+
+header .info h1 span::before,
+.header-html .header-flx .info p a::before {
+  content: "";
+  position: absolute;
+  width: 99%;
+  height: 20px;
+  background: #0f3282;
+  z-index: -1;
+  bottom: 0px;
+  right: 0px;
+}
+
+.header-html .header-flx .info p a::before {
+  height: 10px;
+  transition: height 0.3s ease-in;
+}
+.header-html .header-flx .info p a:hover::before {
+  height: 0px;
+}
+/* End Header */
+
+/* Start header (html_Assignments */
+
+.header-html {
+  background: #2965f1;
+  height: 250px;
+  display: flex;
+}
+
+.header-html .header-flx {
+  color: #fff;
+  text-align: center;
+}
+
+.header-html .header-flx .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 85%;
+}
+
+.header-html .header-flx .info h1 {
+  width: 100%;
+}
+
+.header-html .header-flx .info p {
+  font-size: 20px;
+}
+
+.header-html .header-flx .info p a {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+/* End header (html_Assignments */
 
 /* my framework */
 
