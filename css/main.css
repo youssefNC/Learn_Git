@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  direction: rtl;
+}
+
+/* Start Navbar */
+nav {
+  height: 90px;
+  background-color: #2965f1;
+}
+
+.nav-flx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* border-bottom: 2px solid #1f1f1f; */
+}
+
+nav .logo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+nav .logo a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav .logo a img {
+  height: 80%;
+}
+
+nav .links {
+  width: 60%;
+}
+
+nav .links ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .links ul li {
+  margin-left: 20px;
+}
+
+nav .links ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+nav .links ul li a span {
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+nav .links ul li:nth-child(1) a span {
+  background: #f16529;
+}
+
+nav .links ul li:nth-child(2) a span {
+  background: #3fa9f5;
+}
+
+nav .links ul li:nth-child(3) a span {
+  background: #fcdc00;
+}
+/* End Navbar */
