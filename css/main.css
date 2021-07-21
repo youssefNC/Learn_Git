@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Droid;
+  src: url(/fonts/ArbFONTS-Droid\ Arabic\ Kufi.ttf);
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -8,7 +13,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Droid", "Poppins", sans-serif;
   direction: rtl;
 }
 
@@ -117,7 +122,7 @@ header .info {
 
 header .info h1 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 36px;
   margin-bottom: 20px;
 }
 
@@ -145,7 +150,7 @@ header .info h1 span::before,
   height: 20px;
   background: #0f3282;
   z-index: -1;
-  bottom: 0px;
+  bottom: 5px;
   right: 0px;
 }
 
@@ -320,6 +325,7 @@ header .info h1 span::before,
   position: relative;
   z-index: 1;
   color: white;
+  display: inline-block;
 }
 
 /* End header (html_Assignments) */
@@ -414,7 +420,7 @@ header .info h1 span::before,
   top: 8px;
 }
 
-.html-lessons .box .info ul li ul li::before {
+.html-lessons .box .info ul ul li::before {
   content: "";
   position: absolute;
   width: 15px;
@@ -438,6 +444,21 @@ header .info h1 span::before,
 .html-lessons .box .info .img-example img {
   max-width: 100%;
   max-height: 450px;
+}
+
+pre {
+  background: #333;
+  padding: 30px !important;
+  border-radius: 12px;
+  direction: ltr;
+  text-align: left;
+  position: relative;
+  overflow: auto;
+}
+
+code {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
 }
 
 /* End HTML Lessons  */
