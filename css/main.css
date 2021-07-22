@@ -130,6 +130,7 @@ header .info h1 span {
   color: #fff;
   position: relative;
   z-index: 1;
+  display: inline-block;
 }
 
 header .info p {
@@ -289,6 +290,7 @@ header .info h1 span::before,
   border-top: 1px solid #eee;
   text-transform: capitalize;
 }
+
 /* End Assignments (index.html) */
 
 /* Start header (html_Assignments) */
@@ -477,4 +479,199 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+
+/* scrollbar */
+pre::-webkit-scrollbar {
+  width: 10px;
+}
+
+pre::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 12px rgb(151, 151, 151);
+  box-shadow: inset 0 0 12px rgb(151, 151, 151);
+  border-radius: 12px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background: #2965f1;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Start Header Media */
+  header .info {
+    width: 100%;
+    text-align: center;
+  }
+  header .img {
+    display: none;
+  }
+
+  header .info h1 {
+    font-size: 31px;
+    margin-bottom: 10px;
+  }
+  /* End Header Media */
+
+  /* Start Assignments Media */
+  .Assignments .Assign-flx,
+  .Assignments-html .Assign-flx {
+    justify-content: center;
+  }
+
+  .Assignments .box,
+  .Assignments-html .box {
+    width: 96%;
+  }
+  /* End Assignments Media */
+
+  /* Start Lessons Media */
+  .header-html {
+    height: 350px;
+  }
+
+  .header-html .header-flx .info h1 {
+    font-size: 24px;
+  }
+
+  .header-html .header-flx .info p,
+  .html-lessons .box .lesson-title span,
+  .html-lessons .box .info p,
+  .html-lessons .box .info ul {
+    font-size: 16px;
+  }
+
+  .html-lessons .box .lesson-title h3 {
+    font-size: 20px;
+  }
+
+  .html-lessons .box .info ul {
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  /* End Lessons Media */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Start Header Media */
+  header .info {
+    width: 100%;
+    text-align: center;
+  }
+  header .img {
+    display: none;
+  }
+
+  header .info h1 {
+    font-size: 31px;
+    margin-bottom: 10px;
+  }
+  /* End Header Media */
+
+  .Assignments .Assign-flx,
+  .Assignments-html .Assign-flx {
+    justify-content: center;
+  }
+
+  .Assignments .box,
+  .Assignments-html .box {
+    width: 90%;
+  }
+
+  /* Start Lessons Media */
+  .header-html {
+    height: 350px;
+  }
+
+  .header-html .header-flx .info h1 {
+    font-size: 24px;
+  }
+
+  .header-html .header-flx .info p,
+  .html-lessons .box .lesson-title span,
+  .html-lessons .box .info p,
+  .html-lessons .box .info ul {
+    font-size: 16px;
+  }
+
+  .html-lessons .box .lesson-title h3 {
+    font-size: 20px;
+  }
+
+  .html-lessons .box .info ul {
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  /* End Lessons Media */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Start Header Media */
+  header .info {
+    width: 100%;
+    text-align: center;
+  }
+  header .img {
+    display: none;
+  }
+
+  header .info h1 {
+    font-size: 31px;
+    margin-bottom: 10px;
+  }
+  /* End Header Media */
+
+  /* Start Assignments Media */
+  .Assignments .box,
+  .Assignments-html .box {
+    width: 49%;
+  }
+  /* End Assignments Media */
+
+  /* Start Lessons Media */
+  .header-html {
+    height: 350px;
+  }
+
+  .header-html .header-flx .info h1 {
+    font-size: 24px;
+  }
+
+  .header-html .header-flx .info p,
+  .html-lessons .box .lesson-title span,
+  .html-lessons .box .info p,
+  .html-lessons .box .info ul {
+    font-size: 16px;
+  }
+
+  .html-lessons .box .lesson-title h3 {
+    font-size: 20px;
+  }
+
+  .html-lessons .box .info ul {
+    padding: 0;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  /* End Lessons Media */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Assignments .box,
+  .Assignments-html .box {
+    width: 49%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
