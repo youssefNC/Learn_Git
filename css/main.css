@@ -350,6 +350,7 @@ header .info h1 span::before,
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 20px 0px 30px;
 }
 
@@ -499,7 +500,25 @@ pre::-webkit-scrollbar-thumb {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* Start Header Media */
+  /* Start navbar */
+  .container {
+    width: 98%;
+  }
+
+  .nav-flx {
+    justify-content: space-between;
+  }
+
+  nav .logo a img {
+    height: 60%;
+  }
+
+  nav .links {
+    display: none;
+  }
+
+  /* Start Header */
+
   header .info {
     width: 100%;
     text-align: center;
@@ -522,7 +541,8 @@ pre::-webkit-scrollbar-thumb {
 
   .Assignments .box,
   .Assignments-html .box {
-    width: 96%;
+    margin-bottom: 40px;
+    width: 100%;
   }
   /* End Assignments Media */
 
@@ -531,8 +551,17 @@ pre::-webkit-scrollbar-thumb {
     height: 350px;
   }
 
+  .html-lessons {
+    padding: 100px 0px 0px;
+  }
+
+  .html-lessons .box .info {
+    padding: 0px;
+    background-color: transparent;
+  }
+
   .header-html .header-flx .info h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .header-html .header-flx .info p,
@@ -544,6 +573,11 @@ pre::-webkit-scrollbar-thumb {
 
   .html-lessons .box .lesson-title h3 {
     font-size: 20px;
+  }
+
+  .html-lessons .box .lesson-title span {
+    color: #777777;
+    font-size: 14px;
   }
 
   .html-lessons .box .info ul {
