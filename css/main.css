@@ -498,6 +498,35 @@ pre::-webkit-scrollbar-thumb {
   background: #2965f1;
 }
 
+pre.language-javascript {
+  position: relative;
+}
+pre::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: #1a1a1a;
+  padding: 4px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+pre.language-html::before {
+  content: "html";
+  color: #f16529;
+}
+
+pre.language-css::before {
+  content: "css";
+  color: #3fa9f5;
+}
+
+pre.language-javascript::before {
+  content: "javascript";
+  color: #fcdc00;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   /* Start navbar */

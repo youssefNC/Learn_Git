@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 01 To 09</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 01 إلى 09</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-001-to-009/">هنا</a></span>
+                </div>
+
+<pre class="language-html">
+<code class="language-html">
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+      &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;
+        &lt;title&gt;Learn JavaScript&lt;/title&gt;
+        &lt;script&gt;
+          // Code One
+          document.getElementById(&quot;el&quot;).style.color = &quot;red&quot;;
+        &lt;/script&gt;
+        &lt;script&gt;
+          // Code Two
+          window.onload = function () {
+            document.getElementById(&quot;el&quot;).style.color = &quot;red&quot;;
+          };
+        &lt;/script&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1 id=&quot;el&quot;&gt;Page Title&lt;/h1&gt;
+        &lt;script&gt;
+          // Code Three
+          document.getElementById(&quot;el&quot;).style.color = &quot;red&quot;;
+        &lt;/script&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+</code>
+</pre>
+
+                <div class="info">
+                    <ul>
+                        <li>code one لن يعمل لأن الصفحة لم يتم تحميلها بعد خاصة العنصر h1 </li>
+                        <li>code two سوف يعمل لان الحدث onload يقوم بتنفيذ كود JavaScript فورًا بعد تحميل الصفحة</li>
+                        <li>code three سوف يعمل لأنه أخر عنصر في ملف ال HTML. أي أن الصفحة قد تم تحميلها. ملاحظة, المتصفح يقوم بتنفيد الكود من الأعلى نحو الأسفل</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/html-assignments-lesson-from-1-to-5/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+    document.getElementById(&quot;elzero&quot;).style.color = &quot;blue&quot;;
+    document.getElementById(&quot;elzero&quot;).style.fontSize = &quot;80px&quot;;
+    document.getElementById(&quot;elzero&quot;).style.fontWeight = &quot;bold&quot;;
+    document.getElementById(&quot;elzero&quot;).style.textAlign = &quot;center&quot;;
+    document.getElementById(&quot;elzero&quot;).style.fontFamily = &quot;Arial&quot;;
+    
+    // بطريقة أخرى
+    document.getElementById(&quot;elzero&quot;).setAttribute(&quot;style&quot;, &quot;color: red; font-size: 80px; font-weight: bold; text-align: center; font-family: Arial&quot;);
+</code>
+</pre>
+
+            </div>
+
+            <!-- Start Assignment 03 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 03</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/html-assignments-lesson-from-1-to-5/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+    console.log(&quot;%cElzero %cWeb %cSchool&quot;, &quot;color: red;font-size: 40px;&quot;, &quot;color: green;font-size: 40px;font-weight: bold;&quot;, &quot;background-color: blue; color: #fff;font-size: 40px;&quot;);
+</code>
+</pre>
+
+            <div class="info">
+                <p>تستخدم ()console.log لإظهار رسالة في console. قد تكون الرسالة عبارة عن نص او متغير..الخ. نستخدم c% قبل النص الذي نريد تنسيقه ب CSS.</p>
+            </div>
+
+            </div>
+
+
+            <!-- Start Assignment 04 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 04</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/html-assignments-lesson-from-1-to-5/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+console.group(&quot;Group 1&quot;);
+console.log(&quot;Message One&quot;);
+console.log(&quot;Message Two&quot;);
+        console.group(&quot;Child Group&quot;);
+        console.log(&quot;Message One&quot;);
+        console.log(&quot;Message Two&quot;);
+                console.group(&quot;Grand Child Group&quot;);
+                console.log(&quot;Message One&quot;);
+                console.log(&quot;Message Two&quot;);
+                console.groupEnd(&quot;Grand Child Group&quot;);
+        console.groupEnd(&quot;Child Group&quot;);
+console.groupEnd(&quot;Group 1&quot;);
+
+console.group(&quot;Group 2&quot;);
+console.log(&quot;Message One&quot;);
+console.log(&quot;Message Two&quot;);
+console.groupEnd(&quot;Group 2&quot;);
+</code>
+</pre>
+
+            </div>
+            
+            
+            <!-- Start Assignment 05 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 05</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/html-assignments-lesson-from-1-to-5/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+console.table([&quot;Elzero&quot;, &quot;Ahmed&quot;, &quot;Sameh&quot;, &quot;Gamal&quot;, &quot;aya&quot;]);
+</code>
+</pre>
+
+            </div>
+            
+            <!-- Start Assignment 06 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 06</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/html-assignments-lesson-from-1-to-5/">هنا</a></span>
+                </div>
+
+<pre class="language-html">
+<code class="language-html">
+&lt;!-- الطريقة الاولى --&gt;
+&lt;!-- &lt;script src=&quot;/js/costum.js&quot;&gt;&lt;/script&gt; --&gt;
+
+&lt;!-- الطريقة الثانية --&gt;
+&lt;script src=&quot;/js/costum.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+    console.clear();
+    document.body.innerHTML = &quot;&quot;;
+&lt;/script&gt;
+</code>
+</pre>
+
+                <div class="info">
+                    <ul>
+                        <li>الطريقة الاولى هي وضع كود استدعاء ملف javascript داخل تعليق.</li>
+                        <li>الطريقة الثانية باضافة script اسفل كود ملف javascript وكتابة الأمر ()console.clear لحذف النص الموجود في console. ونكتب الامر document.body.innerHTML لمسح جسم الصفحة. </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>
