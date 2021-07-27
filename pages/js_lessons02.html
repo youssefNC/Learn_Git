@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 10 To 17</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 10 إلى 17</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-010-to-017/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+// انشاء المتغيرين مع اعطاء لكل متغير قيمة
+let numberOne = 10;
+let numberTwo = 20;
+
+// Normal Concatenate =&gt; 1020
+console.log(&quot;&quot; + numberOne + numberTwo); 
+// Normal Concatenate =&gt; String
+console.log(typeof(&quot;&quot; + numberOne + numberTwo));
+
+// Template Literals Way =&gt; 1020
+console.log(`${numberOne}${numberTwo}`);
+// Template Literals Way =&gt; String
+console.log(typeof(`${numberOne}${numberTwo}`));
+
+/*
+    Normal Concatenate
+    20
+    10
+*/
+console.log(numberTwo + &quot;\n&quot; + numberOne);
+
+
+/*
+    Template Literals Way
+    20
+    10
+*/
+console.log(`${numberTwo}\n${numberOne}`);
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-010-to-017/">هنا</a></span>
+                </div>
+
+<pre class="language-html">
+<code class="language-html">
+&lt;h1 id=&quot;elzero&quot;&gt;object&lt;/h1&gt;
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 03 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 03</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-010-to-017/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+console.log(&apos;\
+`I\&apos;m In \n \
+\\\\ \n \
+Love \\\\ &quot;&quot;&quot; \&apos;\&apos;\&apos; \n \
+\\&quot;&quot;&quot;\\&quot;&quot;&quot; \n \
+&quot;&quot;JavaScript&quot;&quot;`` \
+&apos;);
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 04 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 04</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-010-to-017/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let a = 21;
+let b = 20;
+
+console.log(&quot;_&quot; + (`${a}_${b}`).repeat(4) + &quot;_&quot; );
+// _21_2021_2021_2021_20_
+</code>
+</pre>
+
+
+            </div>
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>
