@@ -342,7 +342,8 @@ header .info h1 span::before,
   width: 100%;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .html-lessons .box .lesson-title {
@@ -525,6 +526,33 @@ pre.language-css::before {
 pre.language-javascript::before {
   content: "javascript";
   color: #fcdc00;
+}
+
+/* Challange span */
+.challange {
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  background-color: #673ab7;
+  padding: 5px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-radius: 7px 0px 7px 7px;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+}
+
+.box .challange::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #462482;
+  top: 0px;
+  right: -8px;
+  border-top-right-radius: 7px;
+  border-radius: 2px 7px 0px 0px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

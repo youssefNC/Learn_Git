@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 23 To 26</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 23 إلى 26</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+// Examples
+console.log(100_000); // 100000
+console.log(100000); // 100000
+console.log(5e4 + 5e4); // 100000
+
+// Your Solutions
+
+console.log(10 ** 5); // 100000
+console.log(+&quot;100000&quot;); // 100000
+console.log(parseInt(&quot;100000&quot;)); // 100000
+console.log(Number(&quot;100000&quot;)); // 100000
+console.log(1e5); // 100000
+console.log(100000.000); // 100000
+console.log(parseInt(100000.12.toFixed(0))); // 100000
+console.log(Number.parseInt(&quot;100000&quot;)); // 100000
+console.log(parseInt(100000.5432341)); // 100000
+console.log(Math.pow(1, 5)); // 100000
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+    console.log(Math.abs(Number.MIN_SAFE_INTEGER)); // 9007199254740991
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 03 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 03</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+// الطريقة الأولى
+console.log(
+    Math.ceil(Math.cbrt(Math.log(Number.MAX_SAFE_INTEGER)))
+    * Math.ceil(Math.cbrt(Math.log(Number.MAX_SAFE_INTEGER)))
+    ); // 16
+
+// الطريقة الثانية
+console.log(parseInt(Number.MAX_SAFE_INTEGER.toString().length)); // 16
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 04 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 04</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let myVar = &quot;100.56789 Views&quot;;
+
+console.log(parseInt(myVar)); // 100
+console.log(parseFloat(parseFloat(myVar).toFixed(2))); // 100.57
+
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 05 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 05</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let num1 = 10;
+
+console.log(Number.isInteger(num1) + Number.isInteger(num1) ); // 2
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 06 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 06</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let flt = 10.4;
+
+console.log(Math.floor(flt)); // 10
+console.log(Math.trunc(flt)); // 10
+console.log(Math.ceil(flt - true)); // 10
+console.log(Math.pow(Math.trunc(flt), true)); // 10
+console.log(parseInt(flt)); // 10
+console.log(parseInt(flt.toFixed(0))); // 10
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 07 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 07</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-023-to-026/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+console.log(Math.floor(Math.random()*5));
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Number Challange -->
+            <div class="box">
+                <span class="challange">Number Challange</span>
+                <div class="lesson-title">
+                    <span>رابط فيديو التحدي على قناة الزيرو <a href="https://www.youtube.com/watch?v=bu9_Wx-vO44&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=26">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let a = 1_00;
+let b = 2_00.5;
+let c = 1e2;
+let d = 2.4;
+
+// Find Smallest Number in All Variables And Return Integer
+console.log(Math.trunc(Math.min(a, b, c, d)));
+
+// Use Variable a + d One Time To Get The Needed Output
+console.log(Math.pow(a, Math.trunc(d))); // 10000
+
+// Get Integer 2 From d Variable With 4 Methods
+console.log(Math.floor(d));
+console.log(Math.round(d));
+console.log(Math.trunc(d));
+console.log(parseInt(d));
+
+// Use Variables b + d To Get This Value
+console.log((Math.trunc(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
+console.log(Math.round(Math.floor(b) / Math.ceil(d))); // 67 => Number
+</code>
+</pre>
+
+
+            </div>
+            
+            
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>
