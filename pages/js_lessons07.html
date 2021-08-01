@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 33 To 37</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 33 إلى 37</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-033-to-037/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let numOne = 9;
+// Condition Output => "009"
+if (numOne < 10) {
+    console.log(`00${numOne}`);
+}
+
+let numTwo = 20;
+// Condition Output => "020"
+if (numTwo > numOne && numTwo < 100) {
+    console.log(`0${numTwo}`);
+}
+
+let numThree = 110;
+// Condition Output => "110"
+if (numThree > 99 ) {
+    console.log("" + numThree);
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-033-to-037/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let num1 = 9;
+let str = "9";
+let num2 = "20";
+
+// Output
+// "{num1} Is The Same Value As {str}"
+if (num1 == str) {
+    console.log(`${num1} Is The Same Value As ${str}`);
+}
+
+// "{num1} Is The Same Value As {str} But Not The Same Type"
+if (num1 == str && num1 !== str){
+    console.log(`${num1} Is The Same Value As ${str} But Not The Same Type`)
+}
+
+// "{num1} Is Not The Same Value Or The Same Type As {num2}"
+if (num1 !== num2 ){
+    console.log(`${num1} Is Not The Same Value Or The Same Type As ${num2}`)
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 03 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 03</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-033-to-037/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let num1 = 10;
+let num2 = 30;
+let num3 = "30";
+
+// Needed Output
+if (num3 > num1 && num3 !== num2 && num3 > num1 && num3 == num2 && num3 !== num2 && num3 !== num1 && num3 !== num2){
+    console.log(`${typeof num3 + num3} Is Larger Than ${typeof num1 + num1} And Not The Same Type As ${typeof num2 + num2}`);
+    console.log(`${typeof num3 + num3} Is Larger Than ${typeof num1 + num1} And Value Is The Same As ${typeof num2 + num2} And Type Is Not The Same As ${typeof num2 + num2}`);
+    console.log(`${typeof num3 + num3} Value And Type Is Not The Same As ${typeof num1 + num1} And Type Is Not The Same As ${typeof num2 + num2}`);
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 04 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 04</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-033-to-037/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+// Edit What You Want Here
+
+var num1 = 10;
+var num2 = 1;
+var num3 = 10;
+var num4 = 40;
+
+/*
+    Do Not Edit Below This Line
+    Needed Output
+    True 7 Times
+*/
+
+// Condition 1
+
+if (num1 > num2) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 2
+
+if (num1 > num2 && num1 < num4) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 3
+
+if (num1 > num2 && num1 === num3) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 4
+
+if ((num1 + num2) < num4) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 5
+
+if ((num1 + num3) < num4) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 6
+
+if ((num1 + num2 + num3) < num4) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+
+// Condition 7
+
+if (num4 - (num1 + num3) + num2 === 21) {
+    console.log("True");
+} else {
+    console.log("False");
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            
+            <!-- Start If Condition Challange -->
+            <div class="box">
+                <span class="challange">If Condition Challange</span>
+                <div class="lesson-title">
+                    <span>رابط فيديو التحدي على قناة الزيرو <a href="https://www.youtube.com/watch?v=qQ8AOc69GEI&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=37">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let a = 10;
+
+a < 10 ? console.log(10)
+: a >= 10 && a <= 40 ? console.log("10 to 40")
+: a > 40 ? console.log("> 40")
+: console.log("Unknown")
+
+
+let st = "Elzero Web School";
+
+// way 1
+if (st.indexOf("e") + "" + st.indexOf("r") === "34") {
+    console.log("Good")
+}
+// another way 2
+if ((st.length * st.indexOf("z")).toString() === "34") {
+    console.log("Good")
+}
+
+// W Position May Change
+if (st.charAt(st.indexOf("W")).toLowerCase() === "w"){
+    console.log("Good");
+}
+
+if ( st !== "string" ) {
+    console.log("Good");
+}
+
+if (typeof st.length == "number") {
+    console.log("Good");
+}
+
+
+if (st.split(" ", 1).toString().repeat(2) === "ElzeroElzero") {
+    console.log("Good");
+}
+
+if ((st.slice(st.indexOf("Elzero"), st.indexOf("Elzero")+6)).repeat(2) === "ElzeroElzero") {
+    console.log("Good");
+}
+</code>
+</pre>
+
+
+            </div>
+            
+
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>

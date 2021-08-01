@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 38 To 39</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 38 إلى 39</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-038-to-039/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let day = "  friday ";
+
+day = day.trim().charAt(0).toUpperCase()+day.trim().slice(1).toLowerCase();
+console.log(day);
+
+switch (day) {
+    case "Friday":
+    case "Saturday":
+    case "Sunday":
+    console.log(`No Appointments Available On ${day}`);
+    break;
+    case "Monday":
+    case "Thursday":
+    console.log(`Appointments available on ${day} From 10:00 AM To 5:00 PM`);
+    break;
+    case "Tuesday":
+    console.log(`Appointments available on ${day} From 11:00 AM To 6:00 PM`);
+    break;
+    case "Wednesday":
+    console.log(`Appointments available on ${day} From 12:00 AM To 7:00 PM`);
+    break;
+    default:
+        console.log(`${day} Its Not A Valid Day`);
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Switch And If Challange -->
+            <div class="box">
+                <span class="challange">Switch And If Challange</span>
+                <div class="lesson-title">
+                    <span>رابط فيديو التحدي على قناة الزيرو <a href="https://www.youtube.com/watch?v=UYOmHW-5vwQ&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=39">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let job = "Manager";
+let salary = 0;
+
+switch (job) {
+    case "Manager":
+    salary = 8000;
+    console.log(`Manager salary is ${salary}`);
+    break;
+    case "IT":
+    case "Support":
+    salary = 6000;
+    console.log(`IT and Support: salary is ${salary}`);
+    break;
+    case "Developer":
+    case "Designer":
+    salary = 7000;
+    console.log(`Developer and Designer: salary is ${salary}`);
+    break;
+    default:
+    console.log("Unknown salary");
+    break;
+}
+
+// 
+let holiday = 0;
+let money = 0;
+
+if (holiday == 0) {
+    money = 5000;
+    console.log(`My Money is ${money}`);
+}else if (holiday == 1 || holiday == 2) {
+    money = 3000;
+    console.log(`My Money is ${money}`)
+}else if (holiday == 3){
+    money = 2000;
+    console.log(`My Money is ${money}`);
+}else if (holiday == 4){
+    money = 1000;
+    console.log(`My Money is ${money}`);
+}else if (holiday == 5){
+    money = 0;
+    console.log(`My Money is ${money}`);
+}else{
+    money = 0;
+    console.log(`My Money is ${money}`);
+}
+</code>
+</pre>
+
+
+            </div>
+            
+            
+
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>

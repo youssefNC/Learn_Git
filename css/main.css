@@ -180,7 +180,7 @@ header .info h1 span::before,
 
 .Assignments .box,
 .Assignments-html .box {
-  width: 30%;
+  width: 32%;
   border: 2px solid #f9f9f9;
   border-radius: 8px;
   display: flex;
@@ -189,12 +189,10 @@ header .info h1 span::before,
   position: relative;
   margin-bottom: 40px;
 
-  -webkit-box-shadow: 0px 11px 21px rgb(0 0 0 / 8%);
-  -moz-box-shadow: 0px 11px 21px rgb(0 0 0 / 8%);
-  -o-box-shadow: 0px 11px 21px rgb(0 0 0 / 8%);
-  box-shadow: 0px 11px 21px rgb(0 0 0 / 8%);
-
-  transition: transform 0.4s ease-in;
+  -webkit-box-shadow: 0px 4px 0px rgb(0 0 0 / 8%);
+  -moz-box-shadow: 0px 4px 0px rgb(0 0 0 / 8%);
+  -o-box-shadow: 0px 4px 0px rgb(0 0 0 / 8%);
+  box-shadow: 0px 4px 0px rgb(0 0 0 / 8%);
 }
 
 /* Assignments increment boxs */
@@ -218,19 +216,9 @@ header .info h1 span::before,
   padding: 20px;
 }
 
-.Assignments .box a:hover img,
-.Assignments-html .box a:hover img {
-  transform: scale(1.1);
-}
-
 .Assignments .box a:hover h3,
 .Assignments-html .box a:hover h3 {
   color: #2965f1;
-}
-
-.Assignments .box:hover,
-.Assignments-html .box:hover {
-  transform: scale(1.1);
 }
 
 .Assignments .box:nth-child(3)::before,
@@ -264,7 +252,6 @@ header .info h1 span::before,
 .Assignments-html .box .box-img img {
   width: 100%;
   height: 100%;
-  transition: transform 0.4s ease-in;
 }
 
 .Assignments .box .box-info,
@@ -286,6 +273,7 @@ header .info h1 span::before,
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 0px;
   border-top: 1px solid #eee;
   text-transform: capitalize;
@@ -460,11 +448,6 @@ pre {
   overflow: auto;
 }
 
-code {
-  font-family: "Poppins", sans-serif !important;
-  font-size: 16px;
-}
-
 /* End HTML Lessons  */
 
 /* my framework */
@@ -528,7 +511,20 @@ pre.language-javascript::before {
   color: #fcdc00;
 }
 
-/* Challange span */
+.challange {
+  padding: 0px 4px;
+  background: #2965f1;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+
+  -webkit-box-shadow: 0px 2px 7px rgb(0 0 0 / 14%);
+  -moz-box-shadow: 0px 2px 7px rgb(0 0 0 / 14%);
+  -o-box-shadow: 0px 2px 7px rgb(0 0 0 / 14%);
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 14%);
+}
+
+/* Challange span
 .challange {
   position: absolute;
   top: -8px;
@@ -553,7 +549,7 @@ pre.language-javascript::before {
   right: -8px;
   border-top-right-radius: 7px;
   border-radius: 2px 7px 0px 0px;
-}
+} */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {

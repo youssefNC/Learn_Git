@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 27 To 30</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 27 إلى 30</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-027-to-030/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let userName = "Elzero";
+console.log(userName.slice(0, 1).toLowerCase()); // e
+console.log(userName.substr(0, 1).toLowerCase()); // e
+console.log(userName.substring(0, 1).toLocaleLowerCase()); // e
+console.log(userName.substring(userName.length-3, userName.length-2).toLocaleLowerCase()); // e
+console.log(userName.split( , 1).toString().toLocaleLowerCase()); // e
+console.log(userName.charAt(0).toLowerCase()); // e
+console.log(userName.slice(-3, -2).repeat(3)); // eee
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-027-to-030/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let word = "Elzero";
+let letterZ = "z";
+let letterE = "e";
+let letterO = "O";
+
+console.log(word.toLowerCase().includes(letterZ)); // True
+console.log(word.toLowerCase().startsWith(letterE)); // True
+console.log(word.toUpperCase().endsWith(letterO)); // True
+</code>
+</pre>
+
+
+            </div>
+            
+            <!-- Start String Challange -->
+            <div class="box">
+                <span class="challange">String Challange</span>
+                <div class="lesson-title">
+                    <span>رابط فيديو التحدي على قناة الزيرو <a href="https://www.youtube.com/watch?v=-m-XctesrVM&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=30">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let strChallange = "Elzero Web School";
+
+// Include This Methods In Your Solution [slice, charAt]
+console.log(strChallange.charAt(2).toUpperCase() + strChallange.slice(3, 6)); // Zero
+
+// Return 8 H
+console.log(strChallange.charAt(13).toUpperCase().repeat(8));
+
+// Return Array
+console.log(strChallange.split(" ", 1)); //[Elzero]
+
+// Use Only "substr" Method + Template Literals In Your Solution
+console.log(`${strChallange.substr(0,6)}${strChallange.substr(10)}`);
+
+// Solution Must Be Dynamic And String May Change
+console.log(strChallange.charAt(0).toLowerCase() + strChallange.slice(1, strChallange.length-1).toUpperCase() + strChallange.charAt(strChallange.length-1).toLowerCase());
+</code>
+</pre>
+
+
+            </div>
+            
+            
+
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>
