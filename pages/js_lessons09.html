@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font "popins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <title>Lessons From 40 To 47</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/prism.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav>
+        <div class="container nav-flx">
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Elzero-logo"></a>
+            </div>
+            
+            <div class="links">
+                <ul>
+                    <li><a href="html_assignments.html">حلول <span>HTML</span></a></li>
+                    <li><a href="css_assignments.html">حلول <span>CSS</span></a></li>
+                    <li><a href="js_assignments.html">حلول <span>JS</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <div class="header-html">
+        <div class="container header-flx">
+            <div class="info">
+                <h1>حل تكليفات JavaScript الدروس من الدرس 40 إلى 47</h1>
+                <p>
+                    الحلول لمساعدة الاشخاص الذين يجدون صعوبة في حل التكليفات. لكن قبل رؤية الحل حاول البحث ومحاولة ايجاد الحل بنفسك. ايضا شاهد الدروس مرة اخرى <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">من هنا</a> لترسيخ المعلومات في عقلك. 
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start JavaScript Lessons -->
+    <div class="html-lessons">
+        <div class="container lessons-flx">
+
+            <!-- Start Assignment 01 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 01</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+let num = 3;
+
+// Method 1
+console.log(myFriends.slice(false, num)); // ["Ahmed", "Elham", "Osama"];
+
+// Method 2
+console.log(myFriends.splice(false, num)); // ["Ahmed", "Elham", "Osama"];
+</code>
+</pre>
+
+
+            </div>
+            <!-- Start Assignment 02 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 02</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
+
+// Write Your Code Here
+
+console.log(friends.splice(true, friends.lastIndexOf("Osama"))); // ["Eman", "Osama"]
+
+</code>
+</pre>
+
+
+            </div>
+            <!-- Start Assignment 03 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 03</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let arrOne = ["C", "D", "X"];
+let arrTwo = ["A", "B", "Z"];
+let finalArr = [];
+
+// Write One Single Line Of Code
+
+console.log(finalArr.concat(arrOne, arrTwo).sort().reverse()); // ["Z", "X", "D", "C", "B", "A"]
+</code>
+</pre>
+
+
+            </div>
+            <!-- Start Assignment 04 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 04</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let website = "Go";
+let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
+
+console.log(words[website.length][0].toUpperCase().slice(website.length)); // ZERO
+</code>
+</pre>
+
+
+            </div>
+            <!-- Start Assignment 05 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 05</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let needle = "JS";
+let haystack = ["PHP", "JS", "Python"];
+
+// Write 3 Solutions
+if (haystack.includes(needle) === true){
+  console.log("found")
+}
+
+if (haystack.indexOf(needle) !== -1) {
+  console.log("found")
+}
+
+if (haystack.lastIndexOf(needle) !== -1) {
+  console.log("found")
+}</code>
+</pre>
+
+
+            </div>
+            <!-- Start Assignment 06 -->
+            <div class="box">
+                <div class="lesson-title">
+                    <h3>التكليف 06</h3>
+                    <span>رابط التكليف على موقع الزيرو <a href="https://elzero.org/https://elzero.org/javascript-bootcamp-assignments-lesson-from-040-to-047/">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
+
+// Your Code Here
+
+console.log(allArrs.concat(arr1, arr2).sort().reverse().splice(false, arr1.length).reverse().join("").toLowerCase()); // fxy
+</code>
+</pre>
+
+
+            </div>
+            
+
+
+
+
+
+            <!-- Start Switch And If Challange -->
+            <div class="box">
+                <span class="challange">Arrays Challenges</span>
+                <div class="lesson-title">
+                    <span>رابط فيديو التحدي على قناة الزيرو <a href="https://www.youtube.com/watch?v=YSxfPXLfSQM&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=47&ab_channel=ElzeroWebSchool">هنا</a></span>
+                </div>
+
+<pre class="language-javascript">
+<code class="language-javascript">
+let zero = 0;
+let counter = 3;
+
+let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+
+// Write Code Here
+console.log(my.slice(zero, counter + true).reverse()); // ["Osama", "Elham", "Mazero", "Ahmed"]
+
+console.log(my.slice(zero + true, counter).reverse()); // ["Elham", "Mazero"]
+
+console.log(my.slice(zero + true, counter).reverse().shift().slice(zero, counter - true)
++ my.slice(zero + true, counter).reverse().pop().slice(counter - true)) 
+
+console.log(my.slice(zero, counter - true).pop().slice(counter + true));
+console.log(my.splice(true).shift().slice(counter + true));
+</code>
+</pre>
+
+
+            </div>
+            
+            
+
+
+
+
+            
+        </div>  <!-- end container tag -->
+    </div>
+    
+
+
+    <!-- JavaScript files -->
+    <script src="../js/prism.js"></script>
+</body>
+</html>
